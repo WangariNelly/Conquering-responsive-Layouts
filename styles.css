@@ -1,0 +1,27 @@
+/* Naturally webpages are responsive */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* avoid widths for the body */
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parent{
+    background-color: darkolivegreen;
+    padding: 50px;
+
+    margin: 2rem auto;
+    width: 80%
+}
+
+.child{
+    background-color: white;
+    color: black;
+    width: 50%;  /*always 50% of the parent*/
+    /* height:  250px; avoid heights*/
+
+    padding: 3rem;
+}

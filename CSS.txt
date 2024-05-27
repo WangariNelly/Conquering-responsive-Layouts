@@ -1,0 +1,1 @@
+width in % makes responsive easy on parent elements
